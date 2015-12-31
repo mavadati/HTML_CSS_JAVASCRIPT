@@ -8,11 +8,25 @@
     box-sizing: border-box;
 } 
 
+element{
+}
+
+.app{
+	display: flex;	/* inline and align all the children of .app class*/
+	flex-direction: row; /* just the direction of flex items (row | row-reverse | column | column-reverse)*/
+	flex-wrap: nowrap; /* allows to no-/wrap the children items*/ 
+	margin: auto;
+}
 .description {
 	color:red;
-	max-width: 705px;
+	max-width: 605px;
+	width: 400px;
+	height: 430px;
 }
 
 .image{
-	max-width: 460px;
+	max-width: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
 }
