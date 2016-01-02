@@ -1,0 +1,116 @@
+*{
+	border: 1px solid red !important;
+	
+}
+/* get the font from googlefonts and add to HTML and CSS*/
+*{
+	font-family: 'Rokkitt', serif;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* HOME contents style*/
+#header{
+	text-align: center;
+	font-size: 9;
+	color: #F00;
+	background-color: #FFF;
+}
+#navaigation{
+	color: red;
+	background-color: #3CF; 
+	display: flex;
+
+}
+
+
+body{
+	background-color: #EEE; 
+}
+
+
+
+
+/*   */
+h1{
+	color: green;
+}
+
+/* by changin the size of widnow the media query actively update the color, font, .. */
+@media only screen and (max-width: 600px){
+	p{
+		background-color: blue;
+		font-size: 14px;
+	}
+}
+
+
+/* by changin the size of widnow the media query actively update the color, font, .. */
+@media only screen and (max-width: 300px) {
+	.col-3{
+		display: none;
+	}
+}
+
+/* Define 100% columns and 1-12 column sizes for making 2,3,4,etc/12 column width) */
+.row{ 
+	width: 100%;
+	display: flex;
+
+
+}
+.col-1{
+	width: 8.33%;
+}
+
+.col-2{
+	width: 16.66%;
+}
+
+.col-3{
+	width: 25%;
+	padding: 10px;
+	overflow: auto
+
+}
+
+.col-4{
+	width: 33.33%;
+}
+
+.col-5{
+	width: 41.66%;
+}
+
+.col-6{
+	width: 50%;
+}
+
+.col-7{
+	width: 58.33%;
+}
+
+.col-8{
+	width: 66.66%;
+}
+
+.col-9{
+	width: 75%;
+}
+
+.col-10{
+	width: 83.33%;
+}
+
+.col-11{
+	width: 91.33%;
+}
+
+.col-12{
+	width: 100%;
+}
